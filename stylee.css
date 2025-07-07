@@ -1,0 +1,43 @@
+.separation{
+    height: 6px;
+    width: 100%;
+    background-color: rgb(55, 55, 55);
+}
+.sec1{
+    color: white;
+    max-width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.sec1 :nth-child(1)> :nth-child(1){
+    font-size: 50px;
+    font-weight: bolder;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 550px;
+    position: relative;
+    z-index: 20;
+}
+.secimg video{
+    position: absolute;
+    right: 0;
+    top:40px;
+}
+<section class="sec1">
+        <div>
+            <span>
+                Enjoy on your TV
+            </span>
+            <br>
+            <span>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</span>
+        </div>
+        <div class="secimg">
+            <img src="assests/img/tv.png" alt="video playing on tv">
+            <video src="assests/videos/video.m4v" autoplay loop muted></video>
+        </div>
+    </section>
